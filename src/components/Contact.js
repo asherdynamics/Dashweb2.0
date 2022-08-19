@@ -32,7 +32,6 @@ function Contact() {
                 name="redirect"
                 value="https://web3forms.com/success"
               />
-              <input type="checkbox" name="botcheck" id="" />
               <div className="mb-6">
                 <label
                   htmlFor="name"
