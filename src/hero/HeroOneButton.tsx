@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-import Contact from '../components/contact';
+import Contact from '../components/Contact';
 
 type IHeroOneButtonProps = {
   title: ReactNode;
