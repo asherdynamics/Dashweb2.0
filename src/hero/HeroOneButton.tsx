@@ -1,5 +1,7 @@
 import { ReactNode } from 'react';
 
+import Contact from '../components/contact';
+
 type IHeroOneButtonProps = {
   title: ReactNode;
   description: string;
@@ -12,8 +14,8 @@ const HeroOneButton = (props: IHeroOneButtonProps) => (
       {props.title}
     </h1>
     <div className="text-2xl mt-4 mb-16">{props.description}</div>
-
     {props.button}
+    <Contact />
   </header>
 );
 
