@@ -28,15 +28,17 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
+            {'DashMileUSA\n'}
+            <span className="text-primary-500">
+              #1 Alternative OEM Manufacturer
+            </span>
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
+        description="Leader of the Alternative Industry DashMile, based in Shenzhen China, and office in Southern California. With a 97,000 sq ft. facility and a daily production capacity of more then 200,000 units we are here to offer you a wide range of services including OEM, ODM."
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+          <Link href="https://drive.google.com/file/d/1G_W0OyKgnu2_qe_j4kG1R41pKGZc75vI/view?usp=sharing">
             <a>
-              <Button xl>Download Your Free Theme</Button>
+              <Button xl>Download OEM Catalog</Button>
             </a>
           </Link>
         }
