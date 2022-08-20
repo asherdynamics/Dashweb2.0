@@ -32,6 +32,11 @@ export default function contact() {
                     name="subject"
                     value="🌟ASD Lead DashmileUSA Website🌟"
                   />
+                  <input
+                    type="hidden"
+                    name="redirect"
+                    value="https://dashmileusa.com/success"
+                  />
                   <div className="flex mb-6 space-x-4">
                     <div className="w-full md:w-1/2">
                       <label
